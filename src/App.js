@@ -25,7 +25,12 @@ export default function App() {
   return (
     <div>
       <div>
-        <input type="text" value={name} onChange={handleChange} style={{display:"block"}} />
+        <input
+          type="text"
+          value={name}
+          onChange={handleChange}
+          style={{ display: 'block' }}
+        />
         <button onClick={submitName} disabled={!name}>
           Submit
         </button>
